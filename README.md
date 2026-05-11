@@ -2,9 +2,12 @@
 Based on https://github.com/NanmiCoder/cc-haha
 
 # How To Use
-  ```bun install
-  cp .env.example .env```
-Edit .env (the example below uses MiniMax as the API provider — you can replace it with any compatible service):
+1. ```bun install```
+
+2. ```cp .env.example .env```
+
+3. Edit .env (the example below uses MiniMax as the API provider — you can replace it with any compatible service):
+
 ```
 # API authentication (choose one)
 ANTHROPIC_API_KEY=sk-xxx          # Standard API key via x-api-key header
@@ -26,6 +29,9 @@ API_TIMEOUT_MS=3000000
 DISABLE_TELEMETRY=1
 CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 ```
-Add the project's bin directory to your system environment variables.
-Navigate to a new empty workspace directory
-```claude-haha```
+
+4. Add the project's bin directory to your system environment variables.
+
+5. Navigate to a new empty workspace directory
+
+6. ```claude-haha```
