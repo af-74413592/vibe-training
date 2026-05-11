@@ -74,7 +74,7 @@ Search query pattern:
 4. `<task> huggingface model card training`
 5. `<candidate library> official examples train fine tune`
 6. `<task> framework comparison distributed training RL post-training`
-7. `<agent RL> verl SMILE OpenRLHF TRL benchmark GitHub`
+7. `<agent RL> verl slime OpenRLHF TRL benchmark GitHub`
 
 For each promising reference repo, record:
 
