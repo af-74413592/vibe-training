@@ -6,7 +6,7 @@ Based on https://github.com/NanmiCoder/cc-haha
 
 2. ```cp .env.example .env```
 
-3. Edit .env (the example below uses MiniMax as the API provider — you can replace it with any compatible service):
+3. Edit .env (the example below uses Deepseek as the API provider — you can replace it with any compatible service):
 
 ```
 # API authentication (choose one)
