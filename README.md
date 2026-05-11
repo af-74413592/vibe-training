@@ -35,3 +35,5 @@ CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 5. Navigate to a new empty workspace directory
 
 6. ```claude-haha```
+
+7. Start training your own model with a single line of prompt.
