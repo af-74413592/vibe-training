@@ -1,9 +1,9 @@
 "A Vibe Training - Automated Model Training Repository"
 Based on https://github.com/NanmiCoder/cc-haha
 
-#How To Use
-```bun install```
-```cp .env.example .env```
+# How To Use
+  ```bun install
+  cp .env.example .env```
 Edit .env (the example below uses MiniMax as the API provider — you can replace it with any compatible service):
 ```
 # API authentication (choose one)
