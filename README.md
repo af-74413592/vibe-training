@@ -47,3 +47,4 @@ CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 6. ```claude-haha```
 
 7. Start training your own model with a single line of prompt.
+   otherwise, manually activate the skill using the `/vibe-training` command.
