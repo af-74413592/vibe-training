@@ -76,7 +76,7 @@ Before execution, define:
 When the route depends on a cloned framework or external service, specify:
 
 - Git repository URL, branch/tag/commit, clone location, whether it is used read-only, forked, vendored, or patched in-place
-- install command, Python/CUDA/PyTorch/compiler constraints, editable install needs, and fallback if native extensions fail to build
+- install command, Python/CUDA/PyTorch/compiler constraints, requirements.txt, editable install needs, and fallback if native extensions fail to build
 - which changes should be done through configs/plugins/adapters versus direct source patches
 - Hugging Face auth needs: gated model/dataset, `HF_TOKEN`, cache directory, offline mode, revision pinning, and license acceptance
 - Weights & Biases or logging auth needs: `WANDB_API_KEY`, entity/project/name, online/offline/disabled mode, and where logs are stored
