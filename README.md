@@ -29,7 +29,8 @@ API_TIMEOUT_MS=3000000
 DISABLE_TELEMETRY=1
 CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 ```
-Option 2: ~/.claude/settings.json (Do not use .env)
+# Option 2: edit ~/.claude/settings.json (Do not use .env)
+```
 {
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "sk-xxx",
@@ -37,7 +38,7 @@ Option 2: ~/.claude/settings.json (Do not use .env)
     "ANTHROPIC_MODEL": "deepseek-v4-pro"
   }
 }
-
+```
 
 4. Add the project's bin directory to your system environment variables.
 
