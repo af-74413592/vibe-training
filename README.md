@@ -14,7 +14,7 @@ ANTHROPIC_API_KEY=sk-xxx          # Standard API key via x-api-key header
 ANTHROPIC_AUTH_TOKEN=sk-xxx       # Bearer token via Authorization header
 
 # API endpoint (optional, defaults to Anthropic)
-ANTHROPIC_BASE_URL=	https://api.deepseek.com/anthropic
+ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
 
 # Model configuration
 ANTHROPIC_MODEL=deepseek-v4-pro
@@ -29,6 +29,15 @@ API_TIMEOUT_MS=3000000
 DISABLE_TELEMETRY=1
 CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 ```
+Option 2: ~/.claude/settings.json (Do not use .env)
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "sk-xxx",
+    "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
+    "ANTHROPIC_MODEL": "deepseek-v4-pro"
+  }
+}
+
 
 4. Add the project's bin directory to your system environment variables.
 
